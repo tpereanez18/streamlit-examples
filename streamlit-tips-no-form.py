@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-url = 'https://raw.githubusercontent.com/iantonios/dsc205/refs/heads/main/tips.csv'
+url = 'https://raw.githubusercontent.com/ArtMarciano/datasets/refs/heads/main/tips.csv'
 df = pd.read_csv(url)
 
 values = st.slider(
